@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-family: Arial, sans-serif;
+    
+
+    background-image:
+    linear-gradient(
+      rgba(0, 0, 0, 0.15),
+      rgba(0, 0, 0, 0.15)
+    ),
+    url("/img/Роскошный\ шоурум\ кыргызских\ нарядов.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box{
+    width: 100%;
+    max-width: 440px;
+    padding: 40px 35px;
+    text-align: center;
+
+
+    background: rgba(255, 250, 247, 0.94);
+  border-radius: 25px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.logo{
+    color: #850b25;
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+h1{
+      font-size: 32px;
+  margin-bottom: 12px;
+}
+p{
+      color: #777;
+  margin-bottom: 25px;
+}
+form {
+  text-align: left;
+}
+
+
+input {
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-size: 16px;
+  outline: none;
+  background: white;
+}
+
+
+input:focus {
+  border-color: #850b25;
+}
+
+.password-box {
+  position: relative;
+}
+
+
+.password-box input {
+  padding-right: 55px;
+}
+
+
+#showPassword {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+
+
+.login-btn {
+  width: 100%;
+  padding: 16px;
+  margin-top: 25px;
+
+  background: #850b25;
+  color: white;
+  border: none;
+  border-radius: 12px;
+
+  font-size: 19px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.login-btn:hover {
+  background: #aa1739;
+  transform: translateY(-2px);
+}
+
+
+.register {
+  margin-top: 25px;
+  color: #666;
+}
+
+.register a {
+  color: #850b25;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
+
+.ornament {
+  color: #bb8948;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+#message {
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+
+
+
+@media (max-width: 480px) {
+  .login-box {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  .logo {
+    font-size: 23px;
+  }
+}
+
+
+
+
+
